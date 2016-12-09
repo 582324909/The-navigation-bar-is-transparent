@@ -13,6 +13,8 @@
 		C483E6661DFA42C90032FAE2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C483E6641DFA42C90032FAE2 /* Main.storyboard */; };
 		C483E6681DFA42C90032FAE2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C483E6671DFA42C90032FAE2 /* Assets.xcassets */; };
 		C483E66B1DFA42C90032FAE2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C483E6691DFA42C90032FAE2 /* LaunchScreen.storyboard */; };
+		C483E6741DFA42EC0032FAE2 /* UINavigationBar+Awesome.m in Sources */ = {isa = PBXBuildFile; fileRef = C483E6731DFA42EC0032FAE2 /* UINavigationBar+Awesome.m */; };
+		C483E6761DFA43C90032FAE2 /* bg.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C483E6751DFA43C90032FAE2 /* bg.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,9 @@
 		C483E6671DFA42C90032FAE2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C483E66A1DFA42C90032FAE2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C483E66C1DFA42C90032FAE2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C483E6721DFA42EC0032FAE2 /* UINavigationBar+Awesome.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UINavigationBar+Awesome.h"; sourceTree = "<group>"; };
+		C483E6731DFA42EC0032FAE2 /* UINavigationBar+Awesome.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UINavigationBar+Awesome.m"; sourceTree = "<group>"; };
+		C483E6751DFA43C90032FAE2 /* bg.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = bg.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +63,9 @@
 		C483E65A1DFA42C90032FAE2 /* 导航栏下拉透明 */ = {
 			isa = PBXGroup;
 			children = (
+				C483E6751DFA43C90032FAE2 /* bg.jpg */,
+				C483E6721DFA42EC0032FAE2 /* UINavigationBar+Awesome.h */,
+				C483E6731DFA42EC0032FAE2 /* UINavigationBar+Awesome.m */,
 				C483E65E1DFA42C90032FAE2 /* AppDelegate.h */,
 				C483E65F1DFA42C90032FAE2 /* AppDelegate.m */,
 				C483E6611DFA42C90032FAE2 /* ViewController.h */,
@@ -140,6 +148,7 @@
 			files = (
 				C483E66B1DFA42C90032FAE2 /* LaunchScreen.storyboard in Resources */,
 				C483E6681DFA42C90032FAE2 /* Assets.xcassets in Resources */,
+				C483E6761DFA43C90032FAE2 /* bg.jpg in Resources */,
 				C483E6661DFA42C90032FAE2 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -154,6 +163,7 @@
 				C483E6631DFA42C90032FAE2 /* ViewController.m in Sources */,
 				C483E6601DFA42C90032FAE2 /* AppDelegate.m in Sources */,
 				C483E65D1DFA42C90032FAE2 /* main.m in Sources */,
+				C483E6741DFA42EC0032FAE2 /* UINavigationBar+Awesome.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
